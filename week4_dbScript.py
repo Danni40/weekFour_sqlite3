@@ -28,6 +28,10 @@ sql_command = """
 INSERT INTO experiment values ( Null, 'Flu Antibody Study', 6, 'Study of the morphology of flu antibodies');
 """
 cursor.execute(sql_command)
+sql_command = """
+INSERT INTO experiment values ( Null, 'Flu Antibody Study', 4, 'Study of the morphology of flu antibodies');
+"""
+cursor.execute(sql_command)
 #add new user
 sql_command = """
 INSERT INTO people values ( Null, 'Danni', 'Research Executive', '555-123-1000', '35F');
