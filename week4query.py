@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sqlite3
-
+#run this last
 connection = sqlite3.connect("week4.db")
 
 cursor = connection.cursor()
